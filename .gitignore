@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Node.js / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env*
+!frontend/.env.example
+
+# Local datasets
+data/
+data_prepared/
+
+# Generated results and reports
+results/
+
+# OS/editor files
+.DS_Store
+.vscode/
+
+# Logs
+*.log
